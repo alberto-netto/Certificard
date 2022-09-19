@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:ital,wght@1,300&display=swap');
+body{
+background: 
+  linear-gradient(236.85deg, #5f0000 27.26%, #346BA7 96.03%);
+  size
+}
+.container{
+ background: #F7F7F7;
+  font-family: 'Fjalla One';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+
+color: #1C1C1C;
+position: absolute;
+width: 1260px;
+height: 926px;
+left: 90px;
+top: 49px;
+
+background: #ECF4FF;
+box-shadow: 6px 6px 6px #0E1D2F;
+border-radius: 20px;
+padding: 64px;
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+.perfil{
+  display: flex;
+}
+.perfil-foto{
+  border-radius: 460px;
+  max-height: 200px;
+}
+.titulo{
+  margin-left: 16px;
+}
+.titulo h1{
+  font-weight: 700;
+  font-size:36px;
+}
+.titulo h2{
+  font-weight: 400;
+  font-size:24px;
+}
+.tema button {
+  align-self: flex-end;
+  padding: 8px 16px;
+}
+.projeto{
+  display: flex;
+  flex-direction: column;
+  align-items: absolute;
+  font-weight: 400;
+  font-size:24px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  text-decoration: none;
+}
+.projeto a {
+ color: #1C1C1C;
+ text-decoration: none;
+}
+.redes{
+  background: #ffffff;
+  border-radius: 460px;
+  max-height:24px;
+  align-content: end;
+  
+}
+.social1{
+  border-radius: 460px;
+  max-height:24px;
+}
+.social2{
+  border-radius: 460px;
+  max-height:24px;
+  align-items: bottom-center;
+}
+.codepen{
+  align-content: end;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+  
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #1C1C1C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
+
+.dark .redes {
+  background: #0000000;
+  color: #0000000;
+  border-radius: 460px;
+  max-height:24px;
+  align-content: end;
+}
+
+::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+background: #1C1C1C;
+border: 1.8px solid #1C1C1C;
+border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: #ECF4FF;
+}
+
+::-webkit-scrollbar-track{
+background: #ECF4FF;
+border-radius: 100px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+margin: 15px 0px;
+}
